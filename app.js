@@ -9,7 +9,7 @@ const Product = require('./model/product');
 const User = require('./model/user');
 
 const app = express();
-const port = process.env.PORT || 3000; // Use environment port if provided
+const port = process.env.PORT; // Use environment port if provided
 
 const secret_key = process.env.JWT_SECRET_KEY;
 
